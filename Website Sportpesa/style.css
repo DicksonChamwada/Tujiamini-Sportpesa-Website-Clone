@@ -1,0 +1,410 @@
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.header{
+    height: 25vh;
+    margin-top: -15px;
+    padding: 20px;
+    padding: 5px;
+    background:#000435;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.navbar {
+    padding-top: 4%;
+}
+
+a{
+    padding: 4%;
+    font-size: 1.5em;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a.active{
+    color: white;
+}
+
+.navbar :hover{
+    color: rgb(0, 100, 231);
+    transform: 1s;
+}
+
+.cont{
+margin: 3%;
+height: fit-content;
+border: 2px solid black;
+border-radius: 7em;
+font-size: 25px;
+color: black;
+background-color:#fbb315
+}
+
+marquee{
+color: #0b4bac;
+background-color: aqua;
+ margin: 0;
+ padding: 10px;
+ gap: 1em;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+letter-spacing: 0.5em;
+}
+span{
+    color: #000000;
+}
+.banner{
+background-image: url(image2/pic.jpg);
+height: 80vh;
+min-height: 100vh;
+max-height: 200vh;
+background-position: 100%;
+max-width: 100%;
+background-size: auto, cover;
+background-repeat: no-repeat;
+margin-top: -20px;
+}
+
+.not{
+    padding-left: 30%;
+    padding-right: 10%;
+    align-items: center;
+    padding-top: 5%;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.0rem;
+    color: #000435;
+    line-height: 1;
+}
+
+#class{
+    padding: 2%;
+    white-space: 4rem;
+    font-size: 7.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000435;
+}
+
+.hero{
+    margin-top: -10%;
+    padding-top: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000435;
+}
+
+.btn {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top:4%;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: #fbb315;
+    color: black;
+}
+
+.button:hover{
+    color: orangered;
+}
+
+.about{
+    margin-top: -60px;
+    height: 450vh;
+    background-color: #000435;
+}
+
+.about-hip{
+   
+   font-weight: 900;
+   font-family: 'Times New Roman', Times, serif;
+}
+.about-hip h1{
+    text-align: center;
+    padding-top: 4%;
+    color: #0b4bac;
+    font-size: 4.5rem;
+}
+
+.about-hip p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: azure;
+    text-align: center;
+   
+}
+
+.input-box{
+    padding-left: 1%;
+    
+}
+.box {
+margin-top: 7%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-inline: 7%;
+}
+
+.btns{
+ padding: 50%;
+ display: flex;
+ margin-top: -47%;
+ border-radius: 20px;
+ scroll-padding: 2%;
+}
+
+.btns:hover{
+    color: #0b4bac;
+}
+.award{
+    color: #fbb315;
+}
+
+.wrapper{
+    margin-top: -40%;
+    font-size: 1.5rem;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    padding-inline: 8%;
+}
+
+.text{
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.h1-1{
+    color: #fbb315;
+    font-size: 2.5rem;
+     margin-top: -12%;
+}
+
+.yellow{
+    color: #fbb315;
+}
+
+
+.now{
+    color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fbb315;
+}
+
+.move{
+    margin-top: 22%;
+    padding-left: 22%;
+}
+
+.start{ 
+    padding-left: 55%;
+    padding-top: 10%;
+}
+
+.award-award{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.award-text{
+margin-left: -85%;
+margin-top: -50%;
+}
+
+.heading-9{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraph{
+    font-size: 1.5rem;
+   
+
+}
+
+.buttons-btn{
+    padding-left: 20%;
+    padding-top: 2%;
+   
+}
+
+.buttons{
+    
+    border: 2px solid black;
+    border-radius: 100px;
+    color: black;
+    background-color: #fbb315;
+    font-size: 1.5rem;
+}
+
+#pd{
+text-align: center;
+margin: 5%;
+color: white;
+font-size: 1.7rem;
+}
+
+.margin-sec{
+    margin: -4rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    color: white;
+    gap: 50px;
+   font-size:1.5rem;
+  justify-content: center;
+
+}
+
+.para{
+text-align: center;
+font-size: 6rem;
+color: #fbb315;
+}
+
+.low{
+    color: #fbb315;
+}
+
+.blue{
+    color: #0b4bac;
+}
+
+.numbers{
+    display: flex;
+    font-size: 5rem;
+     gap: 16%;
+    padding-left: 10%;
+}
+
+.container{
+    margin-top: -5%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+     gap: 9.0%;
+    padding-left: 8.5%;
+}
+
+.box-box{
+    height: 200vh;
+    color: black;
+    background-color: black;
+}
+
+.footer-1{
+height: 150vh;
+background-color: rgb(255, 255, 255);
+background-image: url(footer/splash.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+background-size: contain;
+}
+
+.footer-2{
+    padding-top: 20%;
+    padding-left: 3%;
+    color: white;
+}
+
+.to{
+    padding-inline: 1.5%;
+}
+
+.text-1{
+    padding-left: 50px;
+}
+
+.text-2{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.text-3{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.text-4{
+    padding-left: 50px;
+}
+.text-5{
+font-size: 1.5rem;
+}
+
+.text-6 {
+    text-decoration:underline ;
+    font-size:1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600 ;
+    color: black; 
+}
+
+.social a{
+display: inline-flex;
+font-size: 2.0rem;
+color: rgb(31, 26, 26); 
+}
+
+.social-media{
+    margin: 30px;
+}
+
+.copyright {
+    margin-top: 5%;
+    padding: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.copyright-link{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin-top: -6.6%;
+    padding-left:69%;
+    gap: 6.0%;
+    display: flex;
+    cursor: pointer;
+}
+
+.small-container{
+    padding-left: 69%;
+    margin-top: -31%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.end-2{
+    color: black;
+    padding-left: 20%;
+    margin-top: -17%;
+}
+
+/* This is not the real tujiamini website, its just a clone of it. 
+I created it for the purpose of both challenging myself and learning.
+Origanal website by Sportpesa Kenya but this clone is originally done by me. @Dickson Chamwada */
